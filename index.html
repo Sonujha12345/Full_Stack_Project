@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Insert title here</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        form {
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 300px;
+            background-color: #fff;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box; /* Ensure padding and border are included in width */
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+     <form action="/cal" method="post">
+        <label>Name</label>
+        <input type="text" placeholder="Enter Student Name" name="Name"><br>
+        <label>Number-1</label>
+        <input type="text" placeholder="Enter Number-1" name="n1"><br>
+        <label>Number-2</label>
+        <input type="text" placeholder="Enter Number-2" name="n2"><br>
+        <label>Number-3</label>
+        <input type="text" placeholder="Enter Number-3" name="n3"><br>
+        <label>Number-4</label>
+        <input type="text" placeholder="Enter Number-4" name="n4"><br>
+        <label>Number-5</label>
+        <input type="text" placeholder="Enter Number-5" name="n5"><br>
+        <input type="submit" placeholder="Calculater">
+     </form>
+</body>
+</html>
